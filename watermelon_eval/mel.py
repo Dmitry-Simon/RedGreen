@@ -107,7 +107,7 @@ def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=
     return mel_spectrogram_db
 
 
-audio_path = "C:\\Users\\thele\\Desktop\\watermelon_dataset(1)\\datasets\\1_10.5\\chu\\1\\1.wav"
+audio_path = r"C:\Users\thele\Documents\RedGreen\watermelon_dataset\datasets"
 signal, sr = librosa.load(audio_path, sr=16000)
 
 #run
