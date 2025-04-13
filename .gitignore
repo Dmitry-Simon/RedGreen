@@ -163,7 +163,7 @@ cython_debug/
 
 
 ../watermelon_dataset/datasets/18_9
-watermelon_dataset/processed_spectrograms_old/mild
+watermelon_dataset/processed_spectrograms_old/*
 watermelon_dataset/processed_spectrograms/*
 
 
@@ -172,4 +172,4 @@ watermelon_dataset/processed_spectrograms/*
 *.wav
 *.mp3
 *.m4a
-*.npy
+*.npyp
