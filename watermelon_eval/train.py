@@ -1,6 +1,7 @@
 import torch
 print("CUDA available:", torch.cuda.is_available())
 print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
+import os
 import torch.nn as nn
 from sklearn.metrics import f1_score
 from sklearn.utils.class_weight import compute_class_weight
@@ -13,6 +14,12 @@ from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from sklearn.model_selection import train_test_split
 from settings import *
 
+# Load best score from previous runs if exists
+if os.path.exists(BEST_SCORE_FILE):
+    with open(BEST_SCORE_FILE, "r") as f:
+        all_time_best_val = float(f.read().strip())
+else:
+    all_time_best_val = 0.0
 
 # --------------------> Data
 # === Load separate training and validation sets ===
@@ -43,8 +50,23 @@ print("Classes:", train_dataset.get_label_encoder().classes_)
 # --------------------> Train
 # Model, loss, optimizer
 model = ECAPA_TDNN_Full(input_dim=64, num_classes=4).to(DEVICE)
-criterion = nn.CrossEntropyLoss()
+
+
+
+
+labels = ['unripe'] * 63 + ['sweet'] * 47 + ['very_sweet'] * 18 + ['mild'] * 45
+classes = np.unique(labels)
+weights = compute_class_weight(class_weight='balanced', classes=classes, y=labels)
+weights_tensor = torch.tensor(weights, dtype=torch.float).to(DEVICE)
+
+criterion = nn.CrossEntropyLoss(weight=weights_tensor)
+
+
+
+
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS)
+
 
 def evaluate(model, loader):
     model.eval()
@@ -89,6 +111,7 @@ for epoch in range(NUM_EPOCHS):
     train_acc = correct / total
     val_acc, val_f1 = evaluate(model, test_loader)
 
+
     print(f"Epoch {epoch+1}/{NUM_EPOCHS} | "
           f"Train Loss: {train_loss:.4f} | "
           f"Train Acc: {train_acc:.4f} | "
@@ -96,8 +119,26 @@ for epoch in range(NUM_EPOCHS):
           f"Val F1: {val_f1:.4f} | "
           f"Time: {time.time() - start_time:.1f}s")
 
+    # Save best model of this run
     if val_acc > best_val_res:
         best_val_res = val_acc
         torch.save(model.state_dict(), "ecapa_best_model.pth")
+
+        # Also check if it's the best EVER across runs
+        if val_acc > all_time_best_val:
+            print(f"🥇 New all-time best model! Val Acc: {val_acc:.4f} (Previous: {all_time_best_val:.4f})")
+            all_time_best_val = val_acc
+            with open(BEST_SCORE_FILE, "w") as f:
+                f.write(f"{val_acc:.6f}")
+        else:
+            print(f"✅ Best of this run. But not better than all-time best ({all_time_best_val:.4f})")
+
+    scheduler.step()
+
+print(f"\n✅ Training complete. Best of this run: {best_val_res:.4f}")
+print(f"🏆 Best model ever achieved: {all_time_best_val:.4f}")
+
+
 # --------------------> Train
+
 

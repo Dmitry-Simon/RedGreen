@@ -2,7 +2,7 @@ import json
 from collections import Counter
 
 # Load the JSON file
-with open("/watermelon_dataset/ripeness_labels.json", "r", encoding="utf-8") as f:
+with open("../watermelon_dataset/ripeness_labels.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Count the occurrences of each ripeness label
