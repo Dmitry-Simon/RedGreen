@@ -72,7 +72,7 @@ def apply_hamming_window(frames):
 
 
 # Step 4–5: Mel Spectrogram
-def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=0.010, n_mels=40): #TODO check n_fft
+def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=0.010, n_mels=64): #TODO check n_fft. n_mel was 40
     emphasized = pre_emphasis(signal)
     frames = frame_signal(emphasized, frame_size, frame_step, sr)
     windowed_frames = apply_hamming_window(frames)
@@ -99,13 +99,13 @@ def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=
     mel_spectrogram_db = librosa.power_to_db(mel_spectrogram.T, ref=np.max)
 
     # Final Mel Spectrogram
-    plt.figure(figsize=(10, 4))
-    librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=int(frame_step * sr),
-                             x_axis='time', y_axis='mel')
-    plt.title('Step 5: Mel Spectrogram (dB)')
-    plt.colorbar(format='%+2.0f dB')
-    plt.tight_layout()
-    plt.show()
+    # plt.figure(figsize=(10, 4))
+    # librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=int(frame_step * sr),
+    #                          x_axis='time', y_axis='mel')
+    # plt.title('Step 5: Mel Spectrogram (dB)')
+    # plt.colorbar(format='%+2.0f dB')
+    # plt.tight_layout()
+    # plt.show()
 
     return mel_spectrogram_db
 

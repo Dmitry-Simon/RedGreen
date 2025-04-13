@@ -3,6 +3,9 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from sklearn.preprocessing import LabelEncoder
+import os
+import json
+import librosa
 
 FIXED_WIDTH = 300
 
@@ -17,13 +20,16 @@ class WatermelonSpectrogramDataset(Dataset):
 
     def __getitem__(self, idx):
         entry = self.entries[idx]
-        spectrogram = np.load(entry['spectrogram_path'])
+        spectrogram_path_full = os.path.join('../watermelon_dataset/', entry['spectrogram_path'])
+        spectrogram = np.load(spectrogram_path_full)
 
         # Padding or trimming to fixed time length
         if spectrogram.shape[1] < FIXED_WIDTH:
+            # print('padded the spectrogram')
             pad_width = FIXED_WIDTH - spectrogram.shape[1]
             spectrogram = np.pad(spectrogram, ((0, 0), (0, pad_width)), mode='constant')
         elif spectrogram.shape[1] > FIXED_WIDTH:
+            # print('truncated the spectrogram')
             spectrogram = spectrogram[:, :FIXED_WIDTH]
 
         spectrogram = torch.tensor(spectrogram, dtype=torch.float32).unsqueeze(0)
@@ -32,3 +38,4 @@ class WatermelonSpectrogramDataset(Dataset):
 
     def get_label_encoder(self):
         return self.label_encoder
+

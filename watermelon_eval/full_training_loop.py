@@ -1,11 +1,13 @@
 import torch
+print("CUDA available:", torch.cuda.is_available())
+print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
 import torch.nn as nn
 from sklearn.metrics import f1_score
 from sklearn.utils.class_weight import compute_class_weight
 import time
 import numpy as np
 
-from watermelon_eval.SEBlock import ECAPA_TDNN_Lite
+from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from watermelon_eval.traintest_split_dataloads import train_loader, val_loader
 from watermelon_eval.traintest_split_dataloads import dataset
 
@@ -24,7 +26,7 @@ class_weights = compute_class_weight(class_weight='balanced',
 class_weights_tensor = torch.tensor(class_weights, dtype=torch.float32).to(DEVICE)
 
 # Model, loss, optimizer
-model = ECAPA_TDNN_Lite(input_dim=64, num_classes=4).to(DEVICE)
+model = ECAPA_TDNN_Full(input_dim=64, num_classes=4).to(DEVICE)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 
@@ -44,6 +46,7 @@ def evaluate(model, loader):
     return acc, f1
 
 # Training loop
+best_val_res = np.inf
 for epoch in range(NUM_EPOCHS):
     model.train()
     running_loss = 0.0
@@ -77,5 +80,7 @@ for epoch in range(NUM_EPOCHS):
           f"Val F1: {val_f1:.4f} | "
           f"Time: {time.time() - start_time:.1f}s")
 
-    torch.save(model.state_dict(), "ecapa_best_model.pth")
+    if val_acc > best_val_res:
+        best_val_res = val_acc
+        torch.save(model.state_dict(), "ecapa_best_model.pth")
 
