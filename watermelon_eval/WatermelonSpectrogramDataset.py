@@ -6,8 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import os
 import json
 import librosa
-
-FIXED_WIDTH = 300
+from settings import *
 
 class WatermelonSpectrogramDataset(Dataset):
     def __init__(self, json_data):

@@ -5,20 +5,22 @@ import numpy as np
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
+from settings import *
 
 
 # Step 1: Pre-emphasis
 def pre_emphasis(signal, alpha=0.97):
     emphasized = np.append(signal[0], signal[1:] - alpha * signal[:-1])
-    # plt.figure(figsize=(10, 3))
-    # plt.plot(signal, label='Original', alpha=0.6)
-    # plt.plot(emphasized, label='Pre-emphasized', alpha=0.6)
-    # plt.title("Step 1: Pre-emphasis")
-    # plt.xlabel("Sample Index")
-    # plt.ylabel("Amplitude")
-    # plt.legend()
-    # plt.tight_layout()
-    # plt.show()
+    if VERBOSE:
+        plt.figure(figsize=(10, 3))
+        plt.plot(signal, label='Original', alpha=0.6)
+        plt.plot(emphasized, label='Pre-emphasized', alpha=0.6)
+        plt.title("Step 1: Pre-emphasis")
+        plt.xlabel("Sample Index")
+        plt.ylabel("Amplitude")
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
     return emphasized
 
 
@@ -38,15 +40,16 @@ def frame_signal(signal, frame_size, frame_step, sample_rate):
     frames = pad_signal[indices.astype(np.int32, copy=False)]
 
     # Visualize a few frames
-    # plt.figure(figsize=(10, 3))
-    # for i in range(3):
-    #     plt.plot(frames[i], label=f'Frame {i + 1}')
-    # plt.title("Step 2: Framing (First 3 Frames)")
-    # plt.xlabel("Sample Index")
-    # plt.ylabel("Amplitude")
-    # plt.legend()
-    # plt.tight_layout()
-    # plt.show()
+    if VERBOSE:
+        plt.figure(figsize=(10, 3))
+        for i in range(3):
+            plt.plot(frames[i], label=f'Frame {i + 1}')
+        plt.title("Step 2: Framing (First 3 Frames)")
+        plt.xlabel("Sample Index")
+        plt.ylabel("Amplitude")
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
 
     return frames
 
@@ -58,15 +61,16 @@ def apply_hamming_window(frames):
     windowed_frames = frames * hamming
 
     # Visualize window effect on first frame
-    # plt.figure(figsize=(10, 3))
-    # plt.plot(frames[0], label='Original Frame')
-    # plt.plot(windowed_frames[0], label='Windowed Frame')
-    # plt.title("Step 3: Hamming Window (Frame 1)")
-    # plt.xlabel("Sample Index")
-    # plt.ylabel("Amplitude")
-    # plt.legend()
-    # plt.tight_layout()
-    # plt.show()
+    if VERBOSE:
+        plt.figure(figsize=(10, 3))
+        plt.plot(frames[0], label='Original Frame')
+        plt.plot(windowed_frames[0], label='Windowed Frame')
+        plt.title("Step 3: Hamming Window (Frame 1)")
+        plt.xlabel("Sample Index")
+        plt.ylabel("Amplitude")
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
 
     return windowed_frames
 
@@ -82,14 +86,15 @@ def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=
     pow_frames = (1.0 / n_fft) * (mag_frames ** 2)
 
     # Visualize raw spectrogram
-    # plt.figure(figsize=(10, 4))
-    # plt.imshow(10 * np.log10(pow_frames.T + 1e-10), aspect='auto', origin='lower', cmap='viridis')
-    # plt.title('Step 4: Power Spectrogram (Log Scale)')
-    # plt.xlabel('Frame Index')
-    # plt.ylabel('Frequency Bin')
-    # plt.colorbar(label='Power (dB)')
-    # plt.tight_layout()
-    # plt.show()
+    if VERBOSE:
+        plt.figure(figsize=(10, 4))
+        plt.imshow(10 * np.log10(pow_frames.T + 1e-10), aspect='auto', origin='lower', cmap='viridis')
+        plt.title('Step 4: Power Spectrogram (Log Scale)')
+        plt.xlabel('Frame Index')
+        plt.ylabel('Frequency Bin')
+        plt.colorbar(label='Power (dB)')
+        plt.tight_layout()
+        plt.show()
 
     # Mel filter bank
     mel_basis = librosa.filters.mel(sr=sr, n_fft=n_fft, n_mels=n_mels)
@@ -99,13 +104,14 @@ def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=
     mel_spectrogram_db = librosa.power_to_db(mel_spectrogram.T, ref=np.max)
 
     # Final Mel Spectrogram
-    # plt.figure(figsize=(10, 4))
-    # librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=int(frame_step * sr),
-    #                          x_axis='time', y_axis='mel')
-    # plt.title('Step 5: Mel Spectrogram (dB)')
-    # plt.colorbar(format='%+2.0f dB')
-    # plt.tight_layout()
-    # plt.show()
+    if VERBOSE:
+        plt.figure(figsize=(10, 4))
+        librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=int(frame_step * sr),
+                                 x_axis='time', y_axis='mel')
+        plt.title('Step 5: Mel Spectrogram (dB)')
+        plt.colorbar(format='%+2.0f dB')
+        plt.tight_layout()
+        plt.show()
 
     return mel_spectrogram_db
 

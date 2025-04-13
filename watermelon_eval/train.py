@@ -11,12 +11,7 @@ from torch.utils.data import DataLoader, random_split
 from watermelon_eval.WatermelonSpectrogramDataset import WatermelonSpectrogramDataset
 from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from sklearn.model_selection import train_test_split
-
-# --------------------> Config
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-NUM_EPOCHS = 20
-LEARNING_RATE = 5e-5
-# --------------------> Config
+from settings import *
 
 
 # --------------------> Data
@@ -34,7 +29,6 @@ train_dataset = WatermelonSpectrogramDataset(train_entries)
 test_dataset = WatermelonSpectrogramDataset(test_entries)
 
 # === Create DataLoaders ===
-BATCH_SIZE = 32
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, drop_last=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, drop_last=False)
 # Optional: print class labels
@@ -68,7 +62,7 @@ def evaluate(model, loader):
     return acc, f1
 
 # Training loop
-best_val_res = np.inf
+best_val_res = 0
 for epoch in range(NUM_EPOCHS):
     model.train()
     running_loss = 0.0
