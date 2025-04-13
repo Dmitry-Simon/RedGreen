@@ -120,7 +120,7 @@ def extract_mel_spectrogram(signal, sr, n_fft=512, frame_size=0.025, frame_step=
 
 # -------------------> creating the json data file
 # Load raw label data
-with open("../watermelon_dataset/datasets/ripeness_labels.json", "r", encoding="utf-8") as f:
+with open("../watermelon_dataset/ripeness_labels.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Output directory for spectrogram .npy files
@@ -152,7 +152,7 @@ with open(os.path.join(out_dir, "ripeness_with_specs.json"), "w", encoding="utf-
 
 # -------------------> creating the json data file
 # Load raw label data
-with open("../watermelon_dataset/datasets/ripeness_labels.json", "r", encoding="utf-8") as f:
+with open("../watermelon_dataset/ripeness_labels.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Output directory for spectrogram .npy files
