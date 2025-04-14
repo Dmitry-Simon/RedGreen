@@ -2,1039 +2,1039 @@
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 1.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 1.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 2.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 2.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 3.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 3.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 4.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 4.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 5.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 5.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 6.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 6.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 7.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 7.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 8.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 8.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 9.wav",
     "sugar_level": 10.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\新录音 9.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\新录音 9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(2).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(2).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(3).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(3).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(4).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(4).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(5).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(5).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(6).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(6).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(6).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(7).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(7).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(7).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(8).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分(8).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分(8).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分.wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点42分.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点42分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点43分.wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月6日 下午9点43分.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月6日 下午9点43分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(2).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分(2).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(3).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分(3).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(4).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分(4).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(5).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分(5).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(6).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分(6).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分(6).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分.wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点38分.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点38分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分(2).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点39分(2).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点39分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分(3).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点39分(3).npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点39分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分.wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\7月6日 下午9点39分.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7月6日 下午9点39分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175602.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175602.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175602.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175613.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175613.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175613.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175621.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175621.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175621.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175650.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175650.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175650.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175656.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175656.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175656.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175703.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175703.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175703.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175710.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175710.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175710.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175723.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175723.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175723.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175729.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet",
-    "spectrogram_path": "processed_spectrograms\\very_sweet\\20240705_175729.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\20240705_175729.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 74.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 74.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 74.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 75.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 75.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 75.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 76.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 76.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 76.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 77.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 77.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 77.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 78.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 78.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 78.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 79.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 79.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 79.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 80.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 80.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 80.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 81.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 81.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 81.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 82.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 82.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 82.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 83.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 83.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 83.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 84.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 84.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 84.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 85.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 85.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 85.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 86.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 86.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 86.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 87.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 87.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 87.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 88.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 88.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 88.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 89.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 89.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 89.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 90.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 90.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 90.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 91.wav",
     "sugar_level": 9.4,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 91.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 91.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(2).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(2).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(3).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(3).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(4).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(4).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(5).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(5).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(7).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(7).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(7).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(8).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(8).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(8).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(9).wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分(9).npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分(9).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分.wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点05分.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点05分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点06分.wav",
     "sugar_level": 10.2,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月7日 下午10点06分.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7月7日 下午10点06分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 100.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 100.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 100.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 92.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 92.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 92.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 93.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 93.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 93.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 94.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 94.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 94.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 95.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 95.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 95.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 96.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 96.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 96.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 97.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 97.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 97.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 98.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 98.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 98.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 99.wav",
     "sugar_level": 8.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\日新路 99.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\日新路 99.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点56分(2).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点56分(2).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点56分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点56分.wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点56分.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点56分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点57分.wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点57分.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点57分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(2).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分(2).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(3).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分(3).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(4).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分(4).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(5).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分(5).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(6).wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分(6).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分(6).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分.wav",
     "sugar_level": 9.0,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午9点58分.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午9点58分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(2).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分(2).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(3).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分(3).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(4).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分(4).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(5).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分(5).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(6).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分(6).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分(6).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分.wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点11分.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点11分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分(2).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点12分(2).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点12分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分(3).wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点12分(3).npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点12分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分.wav",
     "sugar_level": 9.6,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7月9日 下午10点12分.npy"
+    "ripeness_label": "un_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\un_sweet\\7月9日 下午10点12分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\1.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\1.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\2.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\2.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\3.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\3.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\4.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\4.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\5.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\5.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\6.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\6.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\7.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\8.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\8.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\9.wav",
     "sugar_level": 10.5,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\9.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\1.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\1.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\2.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\2.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\3.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\3.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\4.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\4.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\5.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\5.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\6.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\6.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\7.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\7.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\8.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\8.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\9.wav",
     "sugar_level": 9.7,
-    "ripeness_label": "unripe",
-    "spectrogram_path": "processed_spectrograms\\unripe\\9.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\1.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\1.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\10.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\10.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\10.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\2.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\2.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\3.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\3.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\4.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\4.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\5.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\5.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\6.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\6.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\7.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\8.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\8.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\9.wav",
     "sugar_level": 11.1,
-    "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\9.npy"
+    "ripeness_label": "very_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\very_sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\1.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\1.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\2.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\2.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\3.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\3.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\4.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\4.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\5.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\5.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\6.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\6.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\7.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\8.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\8.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\9.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\9.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\1.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\1.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\10.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\10.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\10.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\2.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\2.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\3.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\3.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\4.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\4.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\5.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\5.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\6.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\6.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\7.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\8.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\8.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\9.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\9.npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\1.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\1.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\1.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\2.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\2.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\2.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\3.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\3.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\3.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\4.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\4.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\4.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\5.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\5.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\5.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\6.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\6.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\6.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\7.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\7.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\8.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\8.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\8.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\9.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\9.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\9.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 65.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 65.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 65.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 66.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 66.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 66.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 67.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 67.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 67.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 68.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 68.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 68.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 69.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 69.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 69.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 70.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 70.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 70.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 71.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 71.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 71.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 72.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 72.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 72.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 73.wav",
     "sugar_level": 10.3,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\日新路 73.npy"
+    "ripeness_label": "low_sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\low_sweet\\日新路 73.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(2).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(2).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(3).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(3).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(3).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(4).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(4).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(4).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(5).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(5).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(5).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(6).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(6).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(6).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(7).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分(7).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分(7).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分.wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点36分.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点36分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点37分(2).wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点37分(2).npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点37分(2).npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点37分.wav",
     "sugar_level": 10.4,
-    "ripeness_label": "mild",
-    "spectrogram_path": "processed_spectrograms\\mild\\7月5日 下午4点37分.npy"
+    "ripeness_label": "sweet",
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点37分.npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(2).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点16分(2).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点16分(2).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(3).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点16分(3).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点16分(3).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(4).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点16分(4).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点16分(4).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(6).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点16分(6).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点16分(6).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分.m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点16分.m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点16分.m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(2).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点17分(2).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点17分(2).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(3).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点17分(3).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点17分(3).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(4).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点17分(4).m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点17分(4).m4a..npy"
   },
   {
     "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分.m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet",
-    "spectrogram_path": "processed_spectrograms\\sweet\\7月5日 下午4点17分.m4a..npy"
+    "spectrogram_path": "C:\\Users\\thele\\Documents\\RedGreen\\watermelon_eval\\..\\watermelon_dataset\\processed_spectrograms\\sweet\\7月5日 下午4点17分.m4a..npy"
   }
 ]

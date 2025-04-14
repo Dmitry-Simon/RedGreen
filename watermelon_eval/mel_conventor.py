@@ -65,7 +65,7 @@ def process_all_to_spectrograms(json_path, output_dir):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 # Usage
-json_input = r"C:\Users\thele\Documents\RedGreen\watermelon_dataset\datasets\ripeness_labels.json"
-spectrogram_output_dir = r"C:\Users\thele\Documents\RedGreen\watermelon_dataset\processed_spectrograms"
+json_input = r"..\watermelon_dataset\datasets\ripeness_labels.json"
+spectrogram_output_dir = r"..\watermelon_dataset\processed_spectrograms"
 
 process_all_to_spectrograms(json_input, spectrogram_output_dir)

@@ -13,11 +13,14 @@ from watermelon_eval.WatermelonSpectrogramDataset import WatermelonSpectrogramDa
 from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from sklearn.model_selection import train_test_split
 from settings import *
+from file_loader_best_model import *
 
 # Load best score from previous runs if exists
 if os.path.exists(BEST_SCORE_FILE):
     with open(BEST_SCORE_FILE, "r") as f:
-        all_time_best_val = float(f.read().strip())
+        score_data = f.read().strip().split(",")
+        all_time_best_val_acc = float(score_data[0])
+        all_time_best_f1 = float(score_data[1])
 else:
     all_time_best_val = 0.0
 
@@ -54,12 +57,12 @@ model = ECAPA_TDNN_Full(input_dim=64, num_classes=4).to(DEVICE)
 
 
 
-labels = ['unripe'] * 63 + ['sweet'] * 47 + ['very_sweet'] * 18 + ['mild'] * 45
-classes = np.unique(labels)
-weights = compute_class_weight(class_weight='balanced', classes=classes, y=labels)
-weights_tensor = torch.tensor(weights, dtype=torch.float).to(DEVICE)
+# labels = ['unripe'] * 63 + ['sweet'] * 47 + ['very_sweet'] * 18 + ['mild'] * 45
+# classes = np.unique(labels)
+# weights = compute_class_weight(class_weight='balanced', classes=classes, y=labels)
+# weights_tensor = torch.tensor(weights, dtype=torch.float).to(DEVICE)
 
-criterion = nn.CrossEntropyLoss(weight=weights_tensor)
+criterion = nn.CrossEntropyLoss()
 
 
 
@@ -119,24 +122,31 @@ for epoch in range(NUM_EPOCHS):
           f"Val F1: {val_f1:.4f} | "
           f"Time: {time.time() - start_time:.1f}s")
 
-    # Save best model of this run
-    if val_acc > best_val_res:
-        best_val_res = val_acc
-        torch.save(model.state_dict(), "ecapa_best_model.pth")
+    # Calculate weighted score
+    current_score = 0.4 * val_acc + 0.6 * val_f1
+    best_score = 0.4 * all_time_best_val_acc + 0.6 * all_time_best_f1
 
-        # Also check if it's the best EVER across runs
-        if val_acc > all_time_best_val:
-            print(f"🥇 New all-time best model! Val Acc: {val_acc:.4f} (Previous: {all_time_best_val:.4f})")
-            all_time_best_val = val_acc
+    # Check if best of this run
+    if val_acc > best_val_res:
+        best_val_res = val_acc  # Update best of this run
+
+        # Check if also best of all time
+        if current_score > best_score:
+            torch.save(model.state_dict(), BEST_MODEL_PATH)
+            all_time_best_val_acc = val_acc
+            all_time_best_f1 = val_f1
             with open(BEST_SCORE_FILE, "w") as f:
-                f.write(f"{val_acc:.6f}")
+                f.write(f"{val_acc:.6f},{val_f1:.6f}")
+            print(f"🥇 New all-time best model! Val Acc: {val_acc:.4f}, F1: {val_f1:.4f}")
         else:
-            print(f"✅ Best of this run. But not better than all-time best ({all_time_best_val:.4f})")
+            print(f"✅ Best of this run. But not better than all-time best "
+                  f"(Val Acc: {all_time_best_val_acc:.4f}, F1: {all_time_best_f1:.4f})")
 
     scheduler.step()
 
-print(f"\n✅ Training complete. Best of this run: {best_val_res:.4f}")
-print(f"🏆 Best model ever achieved: {all_time_best_val:.4f}")
+print(f"\n✅ Training complete. Best of this run: Val Acc: {best_val_res:.4f}")
+print(f"🏆 Best model ever: Val Acc: {all_time_best_val_acc:.4f}, F1: {all_time_best_f1:.4f}")
+
 
 
 # --------------------> Train

@@ -1,8 +1,4 @@
-import os
 import json
-import numpy as np
-import torch
-import torch.nn as nn
 from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from torch.utils.data import DataLoader
 from sklearn.metrics import confusion_matrix
@@ -46,7 +42,7 @@ class_names = label_encoder.classes_
 
 # === Load model ===
 model = ECAPA_TDNN_Full(input_dim=64, num_classes=4).to(DEVICE)
-# If you saved a model:
+# If saved a model:
 model.load_state_dict(torch.load("ecapa_best_model.pth"))
 
 model.eval()
