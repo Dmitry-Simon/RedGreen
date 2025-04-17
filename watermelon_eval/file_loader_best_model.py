@@ -1,6 +1,6 @@
 import os
 
-BEST_MODEL_PATH = "ecapa_best_model.pth"
+BEST_MODEL_PATH = "../back_end/ecapa_best_model.pth"
 BEST_SCORE_FILE = "best_score.txt"
 
 all_time_best_val_acc = 0.0

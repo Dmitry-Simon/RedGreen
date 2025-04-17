@@ -17,12 +17,15 @@ from file_loader_best_model import *
 
 # Load best score from previous runs if exists
 if os.path.exists(BEST_SCORE_FILE):
-    with open(BEST_SCORE_FILE, "r") as f:
-        score_data = f.read().strip().split(",")
-        all_time_best_val_acc = float(score_data[0])
-        all_time_best_f1 = float(score_data[1])
-else:
-    all_time_best_val = 0.0
+    if os.path.exists(BEST_SCORE_FILE):
+        with open(BEST_SCORE_FILE, "r") as f:
+            val, f1 = f.read().strip().split(",")
+            all_time_best_val_acc = float(val)
+            all_time_best_f1 = float(f1)
+    else:
+        # initialize *both* metrics
+        all_time_best_val_acc = 0.0
+        all_time_best_f1 = 0.0
 
 # --------------------> Data
 # === Load separate training and validation sets ===
