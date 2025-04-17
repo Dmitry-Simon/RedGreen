@@ -16,7 +16,7 @@ DATA_JSON = r".\..\watermelon_dataset\ripeness_with_specs.json"
 with open(DATA_JSON, 'r', encoding='utf-8') as f:
     entries = json.load(f)
 
-train_entries, test_entries = train_test_split(entries, test_size=0.2, random_state=42, stratify=[e['ripeness_label'] for e in entries])
+train_entries, test_entries = train_test_split(entries, test_size=0.2, random_state=775, stratify=[e['ripeness_label'] for e in entries])
 # Create datasets
 train_dataset = WatermelonSpectrogramDataset(train_entries)
 test_dataset = WatermelonSpectrogramDataset(test_entries)
