@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from settings import *
 import numpy as np
 import librosa
-from mel_utils import extract_mel_spectrogram, SR
+from back_end.mel_utils import extract_mel_spectrogram, SR
 
 
 # # Step 1: Pre-emphasis

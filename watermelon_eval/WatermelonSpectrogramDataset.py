@@ -3,38 +3,61 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from sklearn.preprocessing import LabelEncoder
-import os
-import json
 import librosa
-from settings import *
+
+from settings import *                  # SR, FIXED_WIDTH, etc.
+from back_end.mel_utils import extract_mel_spectrogram, SR
+
 
 class WatermelonSpectrogramDataset(Dataset):
-    def __init__(self, json_data):
-        self.entries = json_data
+    """
+    Dataset that loads the raw .wav file, computes the Mel spectrogram
+    with *exactly* the same pipeline used at inference, then returns:
+        spectrogram  –  torch.float32, shape [1, n_mels, time_frames]
+        label        –  torch.long
+    """
+    def __init__(self, json_entries):
+        self.entries = json_entries
         self.label_encoder = LabelEncoder()
-        self.labels = self.label_encoder.fit_transform([e['ripeness_label'] for e in self.entries])
+        self.labels = self.label_encoder.fit_transform(
+            [e["ripeness_label"] for e in self.entries]
+        )
 
     def __len__(self):
         return len(self.entries)
 
     def __getitem__(self, idx):
         entry = self.entries[idx]
-        spectrogram_path_full = os.path.join('../watermelon_dataset/', entry['spectrogram_path'])
-        spectrogram = np.load(spectrogram_path_full)
 
-        # Padding or trimming to fixed time length
-        if spectrogram.shape[1] < FIXED_WIDTH:
-            # print('padded the spectrogram')
-            pad_width = FIXED_WIDTH - spectrogram.shape[1]
-            spectrogram = np.pad(spectrogram, ((0, 0), (0, pad_width)), mode='constant')
-        elif spectrogram.shape[1] > FIXED_WIDTH:
-            # print('truncated the spectrogram')
-            spectrogram = spectrogram[:, :FIXED_WIDTH]
+        # ------------------------------------------------------------------ #
+        # 1)  Load *audio*, not a precalculated .npy
+        # ------------------------------------------------------------------ #
+        audio_path = os.path.join("../watermelon_dataset", entry["audio_path"])
+        signal, sr = librosa.load(audio_path, sr=SR)       # SR = 16 000
 
-        spectrogram = torch.tensor(spectrogram, dtype=torch.float32).unsqueeze(0)
-        label = torch.tensor(self.labels[idx], dtype=torch.long)
+        # ------------------------------------------------------------------ #
+        # 2)  Extract Mel spectrogram  —— SINGLE SOURCE OF TRUTH  ✅
+        # ------------------------------------------------------------------ #
+        mel_db = extract_mel_spectrogram(signal, sr)       # (n_mels, T)
+
+        # ------------------------------------------------------------------ #
+        # 3)  Pad / trim in time‑dimension (axis=1) to FIXED_WIDTH frames
+        # ------------------------------------------------------------------ #
+        if mel_db.shape[1] < FIXED_WIDTH:
+            pad = FIXED_WIDTH - mel_db.shape[1]
+            mel_db = np.pad(mel_db, ((0, 0), (0, pad)), mode="constant")
+        elif mel_db.shape[1] > FIXED_WIDTH:
+            mel_db = mel_db[:, :FIXED_WIDTH]
+
+        # ------------------------------------------------------------------ #
+        # 4)  Convert → tensor and add dummy channel dim  [1, n_mels, T]
+        # ------------------------------------------------------------------ #
+        spectrogram = torch.tensor(mel_db, dtype=torch.float32).unsqueeze(0)
+        label       = torch.tensor(self.labels[idx], dtype=torch.long)
         return spectrogram, label
 
+    # ---------------------------------------------------------------------- #
+    # Helper so you can recover the original label strings elsewhere
+    # ---------------------------------------------------------------------- #
     def get_label_encoder(self):
         return self.label_encoder
-

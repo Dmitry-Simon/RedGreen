@@ -1,10 +1,9 @@
+#train.py
 import torch
 print("CUDA available:", torch.cuda.is_available())
 print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
-import os
 import torch.nn as nn
 from sklearn.metrics import f1_score
-from sklearn.utils.class_weight import compute_class_weight
 import time
 import numpy as np
 import json
@@ -116,7 +115,6 @@ for epoch in range(NUM_EPOCHS):
     train_loss = running_loss / total
     train_acc = correct / total
     val_acc, val_f1 = evaluate(model, test_loader)
-
 
     print(f"Epoch {epoch+1}/{NUM_EPOCHS} | "
           f"Train Loss: {train_loss:.4f} | "

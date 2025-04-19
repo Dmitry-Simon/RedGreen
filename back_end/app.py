@@ -20,6 +20,7 @@ N_MELS = 64
 CLASS_NAMES = ['low_sweet', 'sweet', 'un_sweet', 'very_sweet']
 MODEL_PATH = "ecapa_best_model.pth"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+FIXED_WIDTH = 512
 
 # ==== INIT FASTAPI ====
 app = FastAPI()
@@ -30,54 +31,6 @@ model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
 model.eval()
 model.to(DEVICE)
 
-# # ==== MEL SPECTROGRAM PROCESS (IDENTICAL TO TRAINING) ====
-# def extract_mel_spectrogram(signal: np.ndarray, sr: int) -> np.ndarray:
-#     """
-#     Replicates the training code's mel spectrogram steps exactly:
-#       1) Pre-emphasis
-#       2) Framing
-#       3) Hamming window
-#       4) Power spectrum
-#       5) Mel filter bank
-#       6) Convert power to dB
-#     """
-#     # Step 1: Pre-emphasis
-#     alpha = 0.97
-#     emphasized = np.append(signal[0], signal[1:] - alpha * signal[:-1])
-#
-#     # Step 2: Framing
-#     frame_length = int(FRAME_SIZE * sr)  # samples per frame
-#     frame_step = int(FRAME_STEP * sr)    # hop size in samples
-#     signal_length = len(emphasized)
-#     num_frames = int(np.ceil(float(abs(signal_length - frame_length)) / frame_step)) + 1
-#
-#     pad_signal_length = num_frames * frame_step + frame_length
-#     z = np.zeros((pad_signal_length - signal_length))
-#     pad_signal = np.append(emphasized, z)
-#
-#     indices = (
-#         np.tile(np.arange(0, frame_length), (num_frames, 1))
-#         + np.tile(np.arange(0, num_frames * frame_step, frame_step), (frame_length, 1)).T
-#     )
-#     frames = pad_signal[indices.astype(np.int32, copy=False)]
-#
-#     # Step 3: Hamming Window
-#     hamming = np.hamming(frame_length)
-#     windowed_frames = frames * hamming
-#
-#     # Step 4: Power spectrum
-#     mag_frames = np.abs(np.fft.rfft(windowed_frames, n=N_FFT))
-#     pow_frames = (1.0 / N_FFT) * (mag_frames ** 2)
-#
-#     # Step 5: Mel filter bank
-#     mel_basis = librosa.filters.mel(sr=sr, n_fft=N_FFT, n_mels=N_MELS)
-#     mel_spectrogram = np.dot(pow_frames, mel_basis.T)
-#
-#     # Step 6: Convert power to dB
-#     # Training code used ref=np.max for dB scaling
-#     mel_spectrogram_db = librosa.power_to_db(mel_spectrogram.T, ref=np.max)
-#
-#     return mel_spectrogram_db  # shape: (n_mels, time_frames)
 
 # ==== API ENDPOINT ====
 @app.post("/predict")
@@ -97,6 +50,13 @@ async def predict_ripeness(file: UploadFile = File(...)):
         # Extract Mel spectrogram using our refactored function
         mel_spec_db = extract_mel_spectrogram(signal, sr)
 
+        if mel_spec_db.shape[1] < FIXED_WIDTH:
+            mel_spec_db = np.pad(mel_spec_db,
+                                 ((0, 0), (0, FIXED_WIDTH - mel_spec_db.shape[1])),
+                                 mode="constant")
+        elif mel_spec_db.shape[1] > FIXED_WIDTH:
+            mel_spec_db = mel_spec_db[:, :FIXED_WIDTH]
+
         # Prepare input for the model: [batch, channel, n_mels, time]
         # The model architecture may differ. Adjust if your model expects [batch, n_mels, time].
         # Prepare input: [batch, n_mels, time]
@@ -112,6 +72,8 @@ async def predict_ripeness(file: UploadFile = File(...)):
             top_prob, top_class = torch.max(probs, dim=1)
             label = CLASS_NAMES[top_class.item()]
             confidence = top_prob.item()
+
+        # print("API   input_tensor shape:", input_tensor.shape)
 
         return JSONResponse({
             "predicted_label": label,
