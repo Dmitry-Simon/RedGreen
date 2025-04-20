@@ -11,6 +11,8 @@ from ECAPA_TDNN_Full import ECAPA_TDNN_Full
 import librosa
 from mel_utils import extract_mel_spectrogram, SR
 
+# TORUN: uvicorn app:app --reload --host 0.0.0.0 --port 8000
+
 # ==== CONFIG ====
 SAMPLE_RATE = 16000
 N_FFT = 512
