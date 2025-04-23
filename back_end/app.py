@@ -3,7 +3,6 @@ import tempfile
 import torch
 import torch.nn.functional as F
 import numpy as np
-import librosa
 import librosa.display
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
