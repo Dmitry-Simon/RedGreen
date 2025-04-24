@@ -7,12 +7,12 @@ from sklearn.metrics import f1_score
 import time
 import numpy as np
 import json
-from torch.utils.data import DataLoader, random_split
-from watermelon_eval.WatermelonSpectrogramDataset import WatermelonSpectrogramDataset
-from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
+from torch.utils.data import DataLoader
+from watermelon_eval.model.WatermelonSpectrogramDataset import WatermelonSpectrogramDataset
+from watermelon_eval.model.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from sklearn.model_selection import train_test_split
-from settings import *
-from file_loader_best_model import *
+from watermelon_eval.misc.settings import *
+from watermelon_eval.misc.file_loader_best_model import *
 
 # Load best score from previous runs if exists
 if os.path.exists(BEST_SCORE_FILE):

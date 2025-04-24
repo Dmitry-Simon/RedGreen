@@ -33,5 +33,5 @@ def visualize_samples_from_each_class(base_dir):
 
 
 # Usage
-spectrogram_dir = r"C:\Users\thele\Documents\RedGreen\watermelon_dataset\processed_spectrograms"
+spectrogram_dir = r"../watermelon_dataset/processed_spectrograms"
 visualize_samples_from_each_class(spectrogram_dir)

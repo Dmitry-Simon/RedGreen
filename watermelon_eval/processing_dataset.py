@@ -2,9 +2,8 @@ import os
 import re
 import json
 from collections import Counter
+from pathlib import Path
 
-import librosa
-import numpy as np
 
 def get_ripeness_label(sugar_level): # todo: look into it after the model trains
     if sugar_level < 9.7:
@@ -44,9 +43,13 @@ def scan_dataset(base_path):
 
         for file in os.listdir(audio_path):
             if file.endswith('.wav'):
-                full_path = os.path.join(audio_path, file)
+                dataset_root = Path(dataset_dir).parent
+                audio_dir = Path(folder_path) / "audios"
+                wav_path = audio_dir / file
+                # make it relative to your watermelon_dataset root, and POSIX-style:
+                rel_path = wav_path.relative_to(dataset_root).as_posix()
                 data_entries.append({
-                    'audio_path': full_path,
+                    'audio_path': rel_path,
                     'sugar_level': sugar_level,
                     'ripeness_label': ripeness_label
                 })

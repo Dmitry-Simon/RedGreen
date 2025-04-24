@@ -6,15 +6,14 @@ using the same ECAPA‑TDNN model you deployed in `back_end`.
 import os
 import json
 import torch
-import numpy as np
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from watermelon_eval.WatermelonSpectrogramDataset import WatermelonSpectrogramDataset
-from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
+from watermelon_eval.model.WatermelonSpectrogramDataset import WatermelonSpectrogramDataset
+from watermelon_eval.model.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 from sklearn.model_selection import train_test_split
-from settings import BATCH_SIZE, DEVICE
+from watermelon_eval.misc.settings import BATCH_SIZE, DEVICE
 
 # ——— Configuration ———
 DATA_JSON      = r"..\watermelon_dataset\ripeness_with_specs.json"

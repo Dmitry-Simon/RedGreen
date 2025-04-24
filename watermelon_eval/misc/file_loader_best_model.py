@@ -1,6 +1,12 @@
 import os
+from pathlib import Path
 
-BEST_MODEL_PATH = "../back_end/ecapa_best_model.pth"
+# this file’s location
+HERE = Path(__file__).resolve().parent
+
+# walk up to your repo root, then into back_end/
+PROJECT_ROOT = HERE.parent.parent    # adjust the number of `.parent` to hit your RedGreen folder
+BEST_MODEL_PATH = PROJECT_ROOT / "back_end" / "ecapa_best_model.pth"
 BEST_SCORE_FILE = "best_score.txt"
 
 all_time_best_val_acc = 0.0

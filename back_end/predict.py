@@ -3,7 +3,7 @@ import torch.nn.functional as F
 import numpy as np
 import argparse
 import os
-from watermelon_eval.ECAPA_TDNN_Full import ECAPA_TDNN_Full
+from watermelon_eval.model.ECAPA_TDNN_Full import ECAPA_TDNN_Full
 
 # ==== CONFIG ====
 MODEL_PATH = "ecapa_best_model.pth"

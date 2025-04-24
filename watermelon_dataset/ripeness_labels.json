@@ -1,866 +1,866 @@
 [
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 1.wav",
+    "audio_path": "datasets/10_10/audios/新录音 1.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 2.wav",
+    "audio_path": "datasets/10_10/audios/新录音 2.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 3.wav",
+    "audio_path": "datasets/10_10/audios/新录音 3.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 4.wav",
+    "audio_path": "datasets/10_10/audios/新录音 4.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 5.wav",
+    "audio_path": "datasets/10_10/audios/新录音 5.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 6.wav",
+    "audio_path": "datasets/10_10/audios/新录音 6.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 7.wav",
+    "audio_path": "datasets/10_10/audios/新录音 7.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 8.wav",
+    "audio_path": "datasets/10_10/audios/新录音 8.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\10_10\\audios\\新录音 9.wav",
+    "audio_path": "datasets/10_10/audios/新录音 9.wav",
     "sugar_level": 10.0,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(2).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(2).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(3).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(3).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(4).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(4).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(5).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(5).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(6).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(6).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(7).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(7).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分(8).wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分(8).wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点42分.wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点42分.wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\11_10.9\\audios\\7月6日 下午9点43分.wav",
+    "audio_path": "datasets/11_10.9/audios/7月6日 下午9点43分.wav",
     "sugar_level": 10.9,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(2).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分(2).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(3).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分(3).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(4).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分(4).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(5).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分(5).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分(6).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分(6).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点38分.wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点38分.wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分(2).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点39分(2).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分(3).wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点39分(3).wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\12_11.6\\audios\\7月6日 下午9点39分.wav",
+    "audio_path": "datasets/12_11.6/audios/7月6日 下午9点39分.wav",
     "sugar_level": 11.6,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175602.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175602.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175613.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175613.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175621.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175621.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175650.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175650.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175656.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175656.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175703.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175703.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175710.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175710.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175723.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175723.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\13_12.7\\audios\\20240705_175729.wav",
+    "audio_path": "datasets/13_12.7/audios/20240705_175729.wav",
     "sugar_level": 12.7,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 74.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 74.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 75.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 75.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 76.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 76.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 77.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 77.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 78.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 78.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 79.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 79.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 80.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 80.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 81.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 81.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\14_9.4\\audios\\日新路 82.wav",
+    "audio_path": "datasets/14_9.4/audios/日新路 82.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 83.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 83.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 84.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 84.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 85.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 85.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 86.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 86.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 87.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 87.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 88.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 88.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 89.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 89.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 90.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 90.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\15_9.4\\audios\\日新路 91.wav",
+    "audio_path": "datasets/15_9.4/audios/日新路 91.wav",
     "sugar_level": 9.4,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(2).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(2).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(3).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(3).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(4).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(4).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(5).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(5).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(7).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(7).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(8).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(8).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分(9).wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分(9).wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点05分.wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点05分.wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\16_10.2\\audios\\7月7日 下午10点06分.wav",
+    "audio_path": "datasets/16_10.2/audios/7月7日 下午10点06分.wav",
     "sugar_level": 10.2,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 100.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 100.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 92.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 92.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 93.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 93.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 94.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 94.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 95.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 95.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 96.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 96.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 97.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 97.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 98.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 98.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\17_8.7\\audios\\日新路 99.wav",
+    "audio_path": "datasets/17_8.7/audios/日新路 99.wav",
     "sugar_level": 8.7,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点56分(2).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点56分(2).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点56分.wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点56分.wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点57分.wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点57分.wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(2).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分(2).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(3).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分(3).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(4).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分(4).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(5).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分(5).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分(6).wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分(6).wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\18_9\\audios\\7月9日 下午9点58分.wav",
+    "audio_path": "datasets/18_9/audios/7月9日 下午9点58分.wav",
     "sugar_level": 9.0,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(2).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分(2).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(3).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分(3).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(4).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分(4).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(5).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分(5).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分(6).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分(6).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点11分.wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点11分.wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分(2).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点12分(2).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分(3).wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点12分(3).wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\19_9.6\\audios\\7月9日 下午10点12分.wav",
+    "audio_path": "datasets/19_9.6/audios/7月9日 下午10点12分.wav",
     "sugar_level": 9.6,
     "ripeness_label": "un_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\1.wav",
+    "audio_path": "datasets/1_10.5/audios/1.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\2.wav",
+    "audio_path": "datasets/1_10.5/audios/2.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\3.wav",
+    "audio_path": "datasets/1_10.5/audios/3.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\4.wav",
+    "audio_path": "datasets/1_10.5/audios/4.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\5.wav",
+    "audio_path": "datasets/1_10.5/audios/5.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\6.wav",
+    "audio_path": "datasets/1_10.5/audios/6.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\7.wav",
+    "audio_path": "datasets/1_10.5/audios/7.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\8.wav",
+    "audio_path": "datasets/1_10.5/audios/8.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\1_10.5\\audios\\9.wav",
+    "audio_path": "datasets/1_10.5/audios/9.wav",
     "sugar_level": 10.5,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\1.wav",
+    "audio_path": "datasets/2_9.7/audios/1.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\2.wav",
+    "audio_path": "datasets/2_9.7/audios/2.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\3.wav",
+    "audio_path": "datasets/2_9.7/audios/3.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\4.wav",
+    "audio_path": "datasets/2_9.7/audios/4.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\5.wav",
+    "audio_path": "datasets/2_9.7/audios/5.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\6.wav",
+    "audio_path": "datasets/2_9.7/audios/6.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\7.wav",
+    "audio_path": "datasets/2_9.7/audios/7.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\8.wav",
+    "audio_path": "datasets/2_9.7/audios/8.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\2_9.7\\audios\\9.wav",
+    "audio_path": "datasets/2_9.7/audios/9.wav",
     "sugar_level": 9.7,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\1.wav",
+    "audio_path": "datasets/3_11.1/audios/1.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\10.wav",
+    "audio_path": "datasets/3_11.1/audios/10.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\2.wav",
+    "audio_path": "datasets/3_11.1/audios/2.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\3.wav",
+    "audio_path": "datasets/3_11.1/audios/3.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\4.wav",
+    "audio_path": "datasets/3_11.1/audios/4.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\5.wav",
+    "audio_path": "datasets/3_11.1/audios/5.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\6.wav",
+    "audio_path": "datasets/3_11.1/audios/6.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\7.wav",
+    "audio_path": "datasets/3_11.1/audios/7.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\8.wav",
+    "audio_path": "datasets/3_11.1/audios/8.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\3_11.1\\audios\\9.wav",
+    "audio_path": "datasets/3_11.1/audios/9.wav",
     "sugar_level": 11.1,
     "ripeness_label": "very_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\1.wav",
+    "audio_path": "datasets/4_10.8/audios/1.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\2.wav",
+    "audio_path": "datasets/4_10.8/audios/2.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\3.wav",
+    "audio_path": "datasets/4_10.8/audios/3.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\4.wav",
+    "audio_path": "datasets/4_10.8/audios/4.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\5.wav",
+    "audio_path": "datasets/4_10.8/audios/5.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\6.wav",
+    "audio_path": "datasets/4_10.8/audios/6.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\7.wav",
+    "audio_path": "datasets/4_10.8/audios/7.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\8.wav",
+    "audio_path": "datasets/4_10.8/audios/8.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\4_10.8\\audios\\9.wav",
+    "audio_path": "datasets/4_10.8/audios/9.wav",
     "sugar_level": 10.8,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\1.wav",
+    "audio_path": "datasets/5_11/audios/1.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\10.wav",
+    "audio_path": "datasets/5_11/audios/10.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\2.wav",
+    "audio_path": "datasets/5_11/audios/2.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\3.wav",
+    "audio_path": "datasets/5_11/audios/3.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\4.wav",
+    "audio_path": "datasets/5_11/audios/4.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\5.wav",
+    "audio_path": "datasets/5_11/audios/5.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\6.wav",
+    "audio_path": "datasets/5_11/audios/6.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\7.wav",
+    "audio_path": "datasets/5_11/audios/7.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\8.wav",
+    "audio_path": "datasets/5_11/audios/8.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\5_11\\audios\\9.wav",
+    "audio_path": "datasets/5_11/audios/9.wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\1.wav",
+    "audio_path": "datasets/6_10.3/audios/1.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\2.wav",
+    "audio_path": "datasets/6_10.3/audios/2.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\3.wav",
+    "audio_path": "datasets/6_10.3/audios/3.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\4.wav",
+    "audio_path": "datasets/6_10.3/audios/4.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\5.wav",
+    "audio_path": "datasets/6_10.3/audios/5.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\6.wav",
+    "audio_path": "datasets/6_10.3/audios/6.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\7.wav",
+    "audio_path": "datasets/6_10.3/audios/7.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\8.wav",
+    "audio_path": "datasets/6_10.3/audios/8.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\6_10.3\\audios\\9.wav",
+    "audio_path": "datasets/6_10.3/audios/9.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 65.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 65.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 66.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 66.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 67.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 67.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 68.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 68.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 69.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 69.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 70.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 70.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 71.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 71.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 72.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 72.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\7_10.3\\audios\\日新路 73.wav",
+    "audio_path": "datasets/7_10.3/audios/日新路 73.wav",
     "sugar_level": 10.3,
     "ripeness_label": "low_sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(2).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(2).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(3).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(3).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(4).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(4).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(5).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(5).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(6).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(6).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分(7).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分(7).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点36分.wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点36分.wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点37分(2).wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点37分(2).wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\8_10.4\\audios\\7月5日 下午4点37分.wav",
+    "audio_path": "datasets/8_10.4/audios/7月5日 下午4点37分.wav",
     "sugar_level": 10.4,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(2).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点16分(2).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(3).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点16分(3).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(4).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点16分(4).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分(6).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点16分(6).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点16分.m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点16分.m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(2).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点17分(2).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(3).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点17分(3).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分(4).m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点17分(4).m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   },
   {
-    "audio_path": "../watermelon_dataset/datasets\\9_11\\audios\\7月5日 下午4点17分.m4a..wav",
+    "audio_path": "datasets/9_11/audios/7月5日 下午4点17分.m4a..wav",
     "sugar_level": 11.0,
     "ripeness_label": "sweet"
   }
