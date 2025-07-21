@@ -6,6 +6,7 @@ Classify watermelon ripeness from tap audio using deep learning (ECAPA-TDNN) and
 
 [🔗 Frontend (Android Studio) code](https://github.com/Dmitry-Simon/RedyApp/tree/master)
 ---
+[🔗 Link to download the APK](https://drive.google.com/file/d/18OC_MR-IxNMIf2QQ-rpTmzTqaw61SDS5/view?usp=sharing)
 
 ## 🏗️ Project Structure
 
