@@ -3,6 +3,9 @@
 Classify watermelon ripeness from tap audio using deep learning (ECAPA-TDNN) and Mel spectrograms.
 This is the backend part of "Project Phase B" of the final project.
 
+Link for the backend:
+[🔗 Backend (FastAPI, ECAPA-TDNN) code](https://github.com/Dmitry-Simon/RedyApp/tree/master)
+
 ---
 
 ## 🏗️ Project Structure
