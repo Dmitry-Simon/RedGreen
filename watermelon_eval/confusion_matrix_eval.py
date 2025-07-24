@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Compute and plot a confusion matrix for your local validation set,
-using the same ECAPA‑TDNN model you deployed in `back_end`.
-"""
 import os
 import json
 import torch
@@ -16,8 +11,10 @@ from sklearn.model_selection import train_test_split
 from watermelon_eval.misc.settings import BATCH_SIZE, DEVICE
 
 # ——— Configuration ———
-DATA_JSON      = r"..\watermelon_dataset\ripeness_with_specs.json"
-BEST_MODEL_REL = r"..\back_end\ecapa_best_model.pth"
+DATA_JSON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "watermelon_dataset", "ripeness_with_specs.json")
+BEST_MODEL_REL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                             "back_end", "ecapa_best_model.pth")
 
 # ——— Load & split entries ———
 with open(DATA_JSON, "r", encoding="utf-8") as f:

@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 
 
-def get_ripeness_label(sugar_level): # todo: look into it after the model trains
+def get_ripeness_label(sugar_level):
     if sugar_level < 9.7:
         return "un_sweet"
     elif 9.7 <= sugar_level < 10.4:
@@ -57,7 +57,6 @@ def scan_dataset(base_path):
     return data_entries
 
 
-# dataset_dir = r"C:\Users\thele\Documents\RedGreen\watermelon_dataset\datasets" #todo: remove
 dataset_dir = '../watermelon_dataset/datasets'
 save_dir = '../watermelon_dataset'
 entries = scan_dataset(dataset_dir)

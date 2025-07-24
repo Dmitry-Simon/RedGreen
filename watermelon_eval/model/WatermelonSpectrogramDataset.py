@@ -4,16 +4,18 @@ from sklearn.preprocessing import LabelEncoder
 import librosa
 from pathlib import Path
 
-from watermelon_eval.misc.settings import *                  # SR, FIXED_WIDTH, etc.
+from watermelon_eval.misc.settings import *
 from back_end.mel_utils import extract_mel_spectrogram, SR
 
 
 class WatermelonSpectrogramDataset(Dataset):
     """
-    Dataset that loads the raw .wav file, computes the Mel spectrogram
-    with *exactly* the same pipeline used at inference, then returns:
-        spectrogram torch.float32, shape [1, n_mels, time_frames]
-        label torch.long
+    Dataset for loading watermelon ripeness audio data as Mel spectrograms.
+    Each entry in the dataset corresponds to a watermelon audio sample
+    and its associated ripeness label.
+    The dataset expects a JSON file with entries containing:
+    - "audio_path": Path to the audio file relative to the dataset root.
+    - "ripeness_label": The label indicating the ripeness of the watermelon.
     """
     def __init__(self, json_entries):
         self.entries = json_entries

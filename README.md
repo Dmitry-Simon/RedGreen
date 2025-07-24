@@ -1,126 +1,126 @@
 # 🍉 Redy: Watermelon Sweetness Classification Backend
 
-Classify watermelon ripeness from tap audio using deep learning (ECAPA-TDNN) and Mel spectrograms.
-**This is the backend part of "Project Phase B" of the final project.**
+Deep learning backend for classifying watermelon ripeness from tap audio using ECAPA-TDNN and Mel spectrograms.
 
-[🔗 Link for download the APK](https://drive.google.com/file/d/18OC_MR-IxNMIf2QQ-rpTmzTqaw61SDS5/view?usp=sharing)
----
-[🔗 Frontend (Android Studio) code](https://github.com/Dmitry-Simon/RedyApp/tree/master)
+**📱 [Download Android APK](https://drive.google.com/file/d/18OC_MR-IxNMIf2QQ-rpTmzTqaw61SDS5/view?usp=sharing)**  
+**📱 [Frontend Repository](https://github.com/Dmitry-Simon/RedyApp/tree/master)**
+
 ---
 
 ## 🏗️ Project Structure
 
 ```
-watermelon_dataset/
-  ├── datasets/                     # Raw audio files organized by ripeness
-      ├── low_sweet/                # Low sweet ripeness audio
-      ├── sweet/                    # Sweet ripeness audio
-      ├── un_sweet/                 # Unsweet ripeness audio
-      └── very_sweet/               # Very sweet ripeness audio
-  ├── processed_spectrograms/       # Mel spectrograms of audio files 
-      ├── ripeness_labels.json
-      ├── ripeness_with_specs.json
-      └── balanced_ripeness.json
+
 back_end/
-  ├── app.py                        # FastAPI API for inference
-  ├── ECAPA_TDNN_Full.py            # Model architecture
-  ├── mel_utils.py                  # Mel spectrogram extraction
-  ├── generate_spectrogram.py       # Spectrogram generation utility
-  ├── evaluate_api_confusion.py     # API evaluation script
-  └── ecapa_best_model.pth          # Saved model weights
+  ├── app.py                         # FastAPI inference server
+  ├── ECAPA_TDNN_Full.py             # Model architecture
+  ├── mel_utils.py                   # Spectrogram processing utilities
+  ├── ecapa_best_model.pth           # Trained model weights
+  ├── evaluate_api_confusion.py      # API evaluation script
+  ├── generate_spectrogram.py        # Spectrogram generation utility
+  ├── predict_from_wav.py            # Single WAV file prediction
+  ├── predict.py                     # Core prediction logic
+  └── test.py                        # Testing utilities
+  
+watermelon_dataset/
+  ├── datasets/                      # Raw audio and image data
+  │   ├── ripeness_labels.json       # Raw labels
+  │   └── [1-19]_*/                  # Watermelon samples with audio/picture/chu
+  ├── processed_spectrograms/        # Generated Mel spectrograms by class
+  │   ├── low_sweet/
+  │   ├── sweet/
+  │   ├── un_sweet/
+  │   └── very_sweet/
+  ├── ripeness_labels.json           # Main labels file
+  └── ripeness_with_specs.json       # Processed dataset with spectrograms
+  
 watermelon_eval/
-  ├── model/
-      └── ECAPA_TDNN_Full.py        # Model definition (training/eval)
-  ├── confusion_matrix_eval.py      # Offline confusion matrix
-  ├── move_in_dataset.py            # Dataset organization
-  ├── preprocess_and_extract.py     # Audio preprocessing
-  ├── oversample_ripeness_json.py   # Dataset balancing
-  ├── full_training_loop.py         # Model training script
-  └── misc/
-      └── file_loader_best_model.py # Model score loader
-      └── best_score.txt            # Best model scores
+  ├── model/                         # Training modules
+  │   ├── ECAPA_TDNN_Full.py         # Model definition
+  │   └── WatermelonSpectrogramDataset.py  # Dataset class
+  ├── misc/                          # Configuration
+  │   ├── settings.py                # Training settings
+  │   └── file_loader_best_model.py  # Model loading utilities
+  ├── train.py                       # Model training script
+  ├── confusion_matrix_eval.py       # Model evaluation
+  ├── pre_processing.py              # Data preprocessing
+  └── processing_dataset.py          # Dataset processing utilities
+
 visualizations/
-  └── count.py                      # Dataset statistics
+  ├── count.py                       # Dataset statistics
+  └── visualize_local_mel.py         # Spectrogram visualization
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Prepare Dataset & Labels
+### 1. Setup Dataset
+```bash
+# Process raw audio to spectrograms
+python watermelon_eval/preprocess_and_extract.py
 
-- Scan dataset and assign ripeness classes:
-  ```bash
-  python watermelon_eval/move_in_dataset.py
-  ```
-- Convert audio to Mel spectrograms:
-  ```bash
-  python watermelon_eval/preprocess_and_extract.py
-  ```
-- Balance dataset (oversampling):
-  ```bash
-  python watermelon_eval/oversample_ripeness_json.py
-  ```
+# Balance dataset (optional)
+python watermelon_eval/oversample_ripeness_json.py
+```
 
-### 2. Train the Model
+### 2. Train Model
+```bash
+python watermelon_eval/train.py
+```
 
-- Train ECAPA-TDNN Lite:
-  ```bash
-  python watermelon_eval/full_training_loop.py
-  ```
-- Model weights saved to `back_end/ecapa_best_model.pth`
+### 3. Run API Server
+```bash
+uvicorn back_end.app:app --reload --host 0.0.0.0 --port 8000
+```
 
-### 3. Run Inference API
+### 4. Test Prediction
+```python
+import requests
 
-- Start FastAPI server:
-  ```bash
-  uvicorn back_end.app:app --reload --host 0.0.0.0 --port 8000
-  ```
-- Predict ripeness:
-  ```python
-  import requests
-  with open("tap.wav", "rb") as f:
-      r = requests.post("http://localhost:8000/predict", files={"file": f})
-      print(r.json())
-  ```
-
-### 4. Evaluate Model
-
-- Offline confusion matrix:
-  ```bash
-  python watermelon_eval/confusion_matrix_eval.py
-  ```
-- API confusion matrix:
-  ```bash
-  python back_end/evaluate_api_confusion.py
-  ```
+with open("watermelon_tap.wav", "rb") as f:
+    response = requests.post("http://localhost:8000/predict", files={"file": f})
+    print(response.json())
+```
 
 ---
 
-## 🧠 Model & Features
+## 🧠 Model Details
 
-- **Architecture:** ECAPA-TDNN with SE blocks, Res2Net, Attentive Statistics Pooling
-- **Input:** Mel spectrogram (shape: [1, 64, 512])
+- **Architecture:** ECAPA-TDNN with attention pooling and residual connections
+- **Input:** Mel spectrogram (64 bands, 512 frames, 16kHz audio)
 - **Classes:** `low_sweet`, `sweet`, `un_sweet`, `very_sweet`
-- **Audio Preprocessing:** 16kHz, 64 mel bands, 50Hz–8kHz, pre-emphasis α=0.97
+- **Features:** SE blocks, Res2Net, attentive statistics pooling
+
+---
+
+## 📊 Evaluation
+
+```bash
+# Generate confusion matrix
+python watermelon_eval/confusion_matrix_eval.py
+
+# Test API performance
+python back_end/evaluate_api_confusion.py
+```
 
 ---
 
 ## 🛠️ Utilities
 
-- Generate spectrogram for a WAV:
-  ```bash
-  python back_end/generate_spectrogram.py --wav input.wav --out ./specs
-  ```
+Generate spectrogram from WAV file:
+```bash
+python back_end/generate_spectrogram.py --wav input.wav --out ./output
+```
 
-- Visualize dataset audio counts:
-  ```bash
-  python visualizations/count.py
-  ```
+View dataset statistics:
+```bash
+python visualizations/count.py
+```
 
 ---
 
-## 📄 API Response Example
+## 📋 API Response
 
 ```json
 {
@@ -128,13 +128,6 @@ visualizations/
   "confidence": 0.87
 }
 ```
-
----
-
-## 📈 Performance Tracking
-
-- Best model weights: `back_end/ecapa_best_model.pth`
-- Best scores: `best_score.txt`
 
 ---
 
