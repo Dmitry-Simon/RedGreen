@@ -85,6 +85,37 @@ with open("watermelon_tap.wav", "rb") as f:
 
 ---
 
+## 🎯 Model Performance & Training Details
+
+### Model Architecture
+- **Model Type**: ECAPA-TDNN (Emphasized Channel Attention, Propagation and Aggregation Time Delay Neural Network)
+- **Input**: Mel spectrograms with 64 frequency bins
+- **Output**: 4 classes (un_sweet, low_sweet, sweet, very_sweet)
+
+### Training Settings
+- **Batch Size**: 8
+- **Epochs**: 60
+- **Learning Rate**: 1e-3
+- **Optimizer**: Adam
+- **Learning Rate Scheduler**: CosineAnnealingLR
+- **Loss Function**: CrossEntropyLoss
+- **Train/Test Split**: 80/20 with stratification
+
+### Dataset Distribution
+The dataset consists of labeled watermelon tap sounds processed into mel spectrograms, split into four ripeness categories:
+- un_sweet
+- low_sweet
+- sweet
+- very_sweet
+
+### Model Performance
+- **Validation Accuracy**: 97.14%
+- **F1-Score**: 97.44%
+- **Training Strategy**: Random seed 775 for reproducibility
+- **Hardware Acceleration**: Support for CUDA (NVIDIA GPUs) and MPS (Apple Silicon)
+
+---
+
 ## 🧠 Model Details
 
 - **Architecture:** ECAPA-TDNN with attention pooling and residual connections
